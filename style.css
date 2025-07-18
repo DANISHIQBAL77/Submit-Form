@@ -57,20 +57,28 @@ input::placeholder{
    
 }
 ul{
-   display: flex;
-   flex-direction: column;
+    background-color:  rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
     width: auto ;
     align-content: space-between;
+    padding-right: 20px;
     
     
 }
 li{
-    background-color: transparent;
+    width: auto;
     height: 40px;
-    margin: 0 0 10px 0;
+    margin: 0 0 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    padding-left: 0px 20px 0 20px;
 }
 li::marker{
-    content:icon ;
+    content:none ;
 }
 button{
     background-color: rgb(126, 118, 134);
@@ -82,19 +90,6 @@ button{
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
-    margin: 10px 0 0 10px;
+    margin: 0px 0 0 10px;
    
-}
-button#updatetask{
-    background-color: rgb(126, 118, 134);
-    color: white;
-    border: none;
-    height: 35px;
-    width: 260px;
-    border-radius: 20px;
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    visibility: hidden;
 }
