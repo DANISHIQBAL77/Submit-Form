@@ -9,6 +9,17 @@ body{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
 .container{
     position: relative;
     background-color: transparent;
